@@ -1,0 +1,2 @@
+tpp/item/ewr/Scenes/gog1_main0_def
+/Assets/tpp/chara/sna/Pictures/sna0_hair0_def_bsm_alp
