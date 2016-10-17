@@ -15,13 +15,15 @@ Options:
 Based on atvaark's tool. https://dotnetfiddle.net/3RBp5V - online version without reversability.
 
 Compiling:
-	You will need .NET 4 and CityHash.dll - https://www.nuget.org/packages/CityHash.Net.Legacy/.
-	Put CityHash.dll along with main.cs.
-	Execute `C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe /r:CityHash.dll main.cs`
-	Done.
+ 1. You will need .NET 4 and CityHash.dll - https://www.nuget.org/packages/CityHash.Net.Legacy/.
+ 2. Put CityHash.dll along with main.cs.
+ 3. Execute `C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe /r:CityHash.dll main.cs`
+ 4. Done.
 
 Example:
-|:---:|:---:|:---:|
-| Hex representation in fova | 5b ee d2 04 a5 a0 a2 84 |
+
+|-         |-            |-   |
+| ------------- |-------------:|-----:|
+| Hex representation in fova |  | 5b ee d2 04 a5 a0 a2 84 |
 | Full filepath | /Assets/tpp/item/ewr/Scenes/gog1_main0_def | 84 a2 a0 a5 04 d2 ee 5b |
 | Trunkated filepath | tpp/item/ewr/Scenes/gog1_main0_def | 2 a0 a5 04 d2 ee 5b |
