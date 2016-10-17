@@ -21,6 +21,8 @@ Compiling:
  3. Execute `C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe /r:CityHash.dll main.cs`
  4. Done.
 
+See also: https://stackoverflow.com/questions/18286855
+
 Example:
 
 |-         |-            |-   |
