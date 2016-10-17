@@ -7,6 +7,7 @@ Put filenames you want to hash into 'input.txt', grab hashes from 'output.txt'.
 
 Hashes are reversed by default so you can just copypaste the output and search for it 
 using your favorite hex editor. Hashes are also truncated to last 12 bytes out of 16.
+
 Options:
  + '/r': re-reverse hashes;
  + '/p': print hashes to console;
