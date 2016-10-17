@@ -6,7 +6,8 @@ See http://forum.xentax.com/viewtopic.php?p=121141#p121141 for more details on f
 Put filenames you want to hash into 'input.txt', grab hashes from 'output.txt'.
 
 Hashes are reversed by default so you can just copypaste the output and search for it 
-using your favorite hex editor. Hashes are also truncated to last 12 bytes out of 16.
+using your favorite hex editor. Hashes are also truncated to last 12 bytes out of 16 - 
+sometimes first 3 bytes differ.
 
 Options:
  + '/r': re-reverse hashes;
