@@ -1,2 +1,1 @@
 tpp/item/ewr/Scenes/gog1_main0_def	5beed204a5a0
-/Assets/tpp/chara/sna/Pictures/sna0_hair0_def_bsm_alp	9314ef08c325

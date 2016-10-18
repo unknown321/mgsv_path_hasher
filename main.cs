@@ -72,7 +72,8 @@ namespace Fox.StrCode32
 					text = filename;
 				}
 				ulong testStrCode32 = GetStrCode32(text);
-				hash = (testStrCode32.ToString("x")).Substring(1,12);
+				hash = testStrCode32.ToString("x");
+				hash = hash.Substring(hash.Length-12,12);
 				if (reverse)
 				{
 					int chunkSize = 2;
