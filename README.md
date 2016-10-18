@@ -13,7 +13,8 @@ Put filenames you want to hash into 'input.txt', grab hashes from 'output.txt'.
 #### Hashes
 Hashes are reversed by default so you can just copypaste the output and search for it 
 using your favorite hex editor. Hashes are also truncated to last 12 bytes out of 16 - 
-sometimes first 3 bytes differ.
+sometimes first 3 bytes differ. Small hashes are padded with zeroes from left ie 
+hash `12345` becomes `000000012345` - I am not sure is this the right way. 
 
 Example:
 
