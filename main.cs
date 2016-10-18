@@ -73,6 +73,8 @@ namespace Fox.StrCode32
 				}
 				ulong testStrCode32 = GetStrCode32(text);
 				hash = testStrCode32.ToString("x");
+				if (hash.Length < 12)
+					hash = hash.PadLeft(12,'0');
 				hash = hash.Substring(hash.Length-12,12);
 				if (reverse)
 				{
