@@ -16,6 +16,9 @@ using your favorite hex editor. Hashes are also truncated to last 12 bytes out o
 sometimes first 3 bytes differ. Small hashes are padded with zeroes from left ie 
 hash `12345` becomes `000000012345` - I am not sure is this the right way. 
 
+#### Path length
+Game doesn't recognize long filenames (or filenames with dot in filepath).
+
 Example:
 
 |-         |-            |-   |
